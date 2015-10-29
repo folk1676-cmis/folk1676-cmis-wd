@@ -1,0 +1,1 @@
+ls cd gedit git (add, commit, push)
