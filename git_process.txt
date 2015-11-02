@@ -1,16 +1,13 @@
 Open terminal (the black program)
-Open your web browser (Google Chrome, Firefox...)
-Go to github.com and register/log in.
-Create/go to your repository.
-Copy the url.
+Open your web browser (Google Chrome, Firefox...) and go to github.com and register/log in.
+Create/go to your repository and copy the url.
 Type in "git clone --config="http.proxy=http://username:password@proxy:port" https://github.com/url" (Replace username and password with internet account and password. Replace proxy and port with the proxy number and port. Replace /url with the url from your github account.) into terminal
-Type in ls (This list all the filenames).
+Type in ls (This list all the filenames you don't remember your repository name).
 Type in cd filename (Replace filename with the name of your repository)
 gedit filename (Replace filename with the name that you want to call your file).
-Edit the file, save, and exit the file
-In terminal, type in git add filename (Replace filename with the name of your file that you just editted)
+Edit the file, save, and exit the file.
+In terminal, type in git add filename (Replace filename with the name of your file that you just editted).
 Then, type in git commit -m "commit message" (Replace commit message with what you have modified in the file).
-After committing, type in git push.
-Type in your github username
-Type in your github password
-If you want to be sure that everything is saved in your repository, go to github on your browser and check.
+After committing, type in git push. (This pushes the modifed file onto github.com).
+Type in your github username and password (password is invisible).
+If you want to be sure that everything is saved in your repository, go to github on your browser and check if it's there.
