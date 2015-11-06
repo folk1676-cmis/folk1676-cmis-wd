@@ -1,1 +1,4 @@
 ls cd gedit git (add, commit, push)
+sftp name1234@cmis-hsteacher --> password
+put filename (* is for all files but *.___ is for a specific type of files)
+rm filename 
