@@ -1,25 +1,42 @@
 body{
 	background-color: #F5F5F5;
+	border: 10px solid;
+	border-bottom-color: #00CCFF;
+	border-left-color: #0099FF;
+	border-top-color: blue;
+	border-right-color: #0099FF;
 }
 h1{
-	font-family: Comic Sans MS;
+	font-family: Arial;
+	font-size: 400%;
 	background-color: #AEAEAE;
 	border-style: dotted dashed solid double;
 	color: #003AAD;
+	text-align: center;
+	text-decoration: underline;
 }
 h2{
-	font-family: Comic Sans MS;
+	font-family: Comic Sans Ms;
+	font-style: oblique;
+	font-size: 30px;
 	background-color: #C9C9C9;
 	border-style: outset;
 	color: #74A2FF;
+	text-decoration: overline;
 }
 p{
-	font-family: Comic Sans MS;
+	font-family: Courier, monospace;
+	font-weight: 900;
 	background-color: #E4E4E4;
 	border-style: double;
-	color: #ADC8FF;
+	border-color: #00FFFF;
+	color: blue;
 }
 footer{
 	font-family: Impact;
-	color: black;
+	color: #0099CC;
+	border: 5px ridge;
+	line-height: 300%;
+	border-left-color: #3366CC;
+	border-right-color: #99FFFF;
 }
