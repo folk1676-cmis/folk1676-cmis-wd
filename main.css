@@ -1,42 +1,75 @@
+/*
+Requirements
+
+Create a new file called "main.css"
+Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+Edit the main.css file
+add a declaration for each element in the body of your index.html file.
+add properties to style the background color of each element.
+add properties to style the border of each element.
+add properties to style the font of each element.
+View your index.html in the development server.
+Validate your index.html file.
+Validate your main.css file.
+Copy this list of requirements and paste it into your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+Upload to the production server with sftp.
+View your index.html in the production server.
+*/
+
 body{
 	background-color: #F5F5F5;
 	border: 10px solid;
 	border-bottom-color: #00CCFF;
-	border-left-color: #0099FF;
+	border-bottom-style: groove;
+	border-bottom-width: 20px;
+	border-left-style: hidden;
 	border-top-color: blue;
+	border-top-style: double;
 	border-right-color: #0099FF;
 }
 h1{
-	font-family: Arial;
-	font-size: 400%;
 	background-color: #AEAEAE;
-	border-style: dotted dashed solid double;
 	color: #003AAD;
+	font-family: Times New Roman;
+	font-size: 400%;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration: overline;
+	text-shadow: 4px 4px 4px white;
+	border-style: dotted dashed solid double;
 }
 h2{
+	background-color: #C9C9C9;	
+	color: #74A2FF;
 	font-family: Comic Sans Ms;
 	font-style: oblique;
-	font-size: 30px;
-	background-color: #C9C9C9;
-	border-style: outset;
-	color: #74A2FF;
-	text-decoration: overline;
+	font-size: 40px;
+	text-decoration: underline;
+	border: 20px outset;
+	border-top-color: #CCFFFF;
+	border-bottom-color: blue;
+	border-bottom-style: groove;
 }
 p{
+	background-color: #E4E4E4;
+	color: blue;
+	font-size: 160%;
 	font-family: Courier, monospace;
 	font-weight: 900;
-	background-color: #E4E4E4;
+	text-shadow: 4px 4px 10px #CC3300;
+	border: 20px;
 	border-style: double;
 	border-color: #00FFFF;
-	color: blue;
 }
 footer{
-	font-family: Impact;
+	background-color: rgb(204, 204, 255);
 	color: #0099CC;
+	font-family: Impact;
+	font-size: 150%;
+	text-decoration: line-through;
 	border: 5px ridge;
 	line-height: 300%;
 	border-left-color: #3366CC;
+	border-left-style: dotted;
 	border-right-color: #99FFFF;
 }
