@@ -1,0 +1,33 @@
+h1{ 
+	font-style: oblique;
+	background-color: green;
+	color: yellow;
+}
+header{
+	background-color: yellow;
+	color: black;
+}
+main{
+	border: dashed 5px;
+	border-color: red;
+}
+h2{
+	background-color: blue;
+	color: yellow;
+}
+h3{
+	background-color: orange;
+	color: blue;
+}
+p{
+	color: purple;
+}
+footer{
+	line-height: 300%;
+	background-color: red;
+	border: solid 10px;
+	border-color: white;
+	border-bottom-style: outset;
+	border-left-color: yellow;
+	border-bottom-color: blue;
+}
