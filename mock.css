@@ -23,10 +23,12 @@ p{
 	color: purple;
 }
 footer{
+	font-size: 75%;
+	padding-bottom: 10px;
 	line-height: 300%;
 	background-color: red;
-	border: solid 10px;
-	border-color: white;
+	border: 10px;
+	border-left-style: outset;
 	border-bottom-style: outset;
 	border-left-color: yellow;
 	border-bottom-color: blue;
