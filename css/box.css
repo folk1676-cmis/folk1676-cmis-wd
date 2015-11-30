@@ -1,20 +1,54 @@
+main{
+	border-left: ridge 10px;
+	border-bottom: groove 10px;
+	border-top: solid 10px;
+	border-color: #99CCFF;
+}
+
 h1{
 	border: groove 7.5px;
 	border-color: #33FFFF;
-	margin: 100px;
-	padding: auto;
-	width: auto;
+	margin: 25px;
+	padding: 5px;
+	width: 480px;
 	height: auto;
+	background-color: #CCFFFF;
 }
 
 h2{
 	border-style: groove;
-	border-color: orange;
-	margin:
-	padding:
-	width:
-	height:
+	border-color: blue;
+	margin: 25px;
+	padding: 0px;
+	width: 480px;
+	height: auto;
+	background-color: #DDFFFF;
 }
 
-body{
+footer{
+	margin: 25px;
+	padding: 5px;
+	width: 480px;
+	height: auto;
+}
+
+li{
+	color: #0099FF;
+}
+
+h1 + h2{
+	margin: 25px;
+	width: 480px;
+}
+
+main > article{
+	border: ridge 10px;
+	border-color: #00CCFF;
+	margin: 25px;
+	width: 480px;
+	color: blue;
+}
+
+h1 ~ h2{
+	color: #66FFCC;
 }
