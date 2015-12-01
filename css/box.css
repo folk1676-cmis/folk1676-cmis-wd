@@ -5,6 +5,10 @@ main{
 	border-color: #99CCFF;
 }
 
+body{
+	background-color: #99CCCC;
+}
+
 h1{
 	border: groove 7.5px;
 	border-color: #33FFFF;
