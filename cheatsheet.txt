@@ -1,4 +1,29 @@
-ls cd gedit git (add, commit, push)
-sftp name1234@cmis-hsteacher --> password
-put filename (* is for all files but *.___ is for a specific type of files)
-rm filename 
+float and clear:
+normal html
+
+	THE  DUMB  FARM
+
+   @     (^_^)
+ <(')    /|@|\	 ()_()
+  (v)<  / |=| \  (o_o)
+   T      T T	 (>0<)3
+
+create side bar --> nav and main (side by side)
+	set width: nav{
+					width: 200px;
+					float: left;			 #margin and float must be same
+				}
+				main{
+					margin-left: 201px;		 #add 1 to the width
+				}
+				img{
+					float: left;
+				}
+				footer{
+					clear: both;			#can do left/right instead of both
+				}
+				br.clear{
+					clear: both;
+				}
+
+in HTML --> <br class="clear">
