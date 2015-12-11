@@ -1,3 +1,44 @@
-header{
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+*{
+font-family: 'Varela Round', sans-serif;
+}
+body{
+	background-color: #7986AC;
+}
 
+main{
+	border: solid;
+}
+
+h1{
+	color: #D4B26A;
+	background-color: #061439;
+	border-style: inset;
+}
+
+h2{
+	color: #D4B26A;
+}
+
+p{
+	color: #FFE4AA;
+}
+
+nav{
+	float: left;
+	background-color: #68979B;
+	border: solid 10px;
+	color: #FFD2AA;
+	border-color: #061439;
+	margin-right: 1px;
+	height: 75px;
+	width: 125px;
+}
+
+footer{
+	color: #FFE4AA;
+}
+
+ol{
+	float: left;
 }
