@@ -1,14 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 *{
-font-family: 'Varela Round', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 }
+
 body{
 	background-color: #4F608F;
-}
-
-main{
-
+	outline: #FFE4AA outset 1px;
 }
 
 h1{
@@ -18,42 +16,30 @@ h1{
 	border-style: inset;
 }
 
-h2{
-	text-align: center;
-	color: #D4B26A;
-}
-
-p{
-	margin-left: 135px;
-	color: #FFE4AA;
-}
-
 nav{
 	float: left;
 	background-color: none;
-	outline: #FFE4AA outset thick;
+	outline: #FFE4AA outset 1px;
 	color: #FFD2AA;
-	border-color: #061439;
-	margin-right: 1px;
-	height: 75px;
-	width: 125px;
 }
 
 footer{
 	font-family: 'Poiret One', cursive;
 	color: #FFE4AA;
+	clear: both;
 }
 
-ol{
-	margin-left: 200px;
+article{
+	outline: #FFE4AA outset 1px;
+	float: right;
 }
 
-table{
-	outline: #D49C6A groove thick;
-	border: groove 5px;
-	border-color: #552800;
+p{
+	outline: #FFE4AA outset 1px;
+	clear: both;
 }
 
 img{
+	outline: #FFE4AA outset 1px;
 	float: right;
 }
