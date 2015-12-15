@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 *{
-	font-family: 'Varela Round', sans-serif;
+	background-color: #4F608F;
 }
 
 body{
-	background-color: #4F608F;
 	outline: #FFE4AA outset 1px;
 }
 
@@ -21,6 +20,7 @@ nav{
 	background-color: none;
 	outline: #FFE4AA outset 1px;
 	color: #FFD2AA;
+	width: 150px;
 }
 
 footer{
@@ -30,11 +30,13 @@ footer{
 }
 
 article{
+	font-family: 'Varela Round', sans-serif;
 	outline: #FFE4AA outset 1px;
-	float: right;
+	margin-left: 151px;
 }
 
 p{
+	font-family: 'Varela Round', sans-serif;
 	outline: #FFE4AA outset 1px;
 	clear: both;
 }
@@ -42,4 +44,9 @@ p{
 img{
 	outline: #FFE4AA outset 1px;
 	float: right;
+}
+
+h2{
+	font-size: 80%;
+	color: #FFE4AA;
 }
